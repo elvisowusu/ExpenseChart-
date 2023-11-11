@@ -3,7 +3,7 @@
 function App() {
 
   return (
-    <div className="bg-red-400 text-xl  h-[12rem] text-center">
+    <div>
       hehesdfsa
     </div>
   )
