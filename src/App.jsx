@@ -5,7 +5,10 @@ function App() {
   return (
     <div>
       <div>
-        <div><p>My balance</p><h1>$921.48</h1></div>
+        <div className="flex">
+          <p>My balance</p>
+          <h1>$921.48</h1>
+        </div>
         <div>
           <BsCircle />
           <BsFillCircleFill />
