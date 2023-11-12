@@ -16,16 +16,29 @@ function App() {
       </div>
       <div className="rounded-lg bg-white p-6 w-[22rem] mt-4 py-6">
         <h1 className="text-Darkbrown font-bold text-[1.5rem]">Spending - Last 7 days</h1>
-        <div className="flex justify-evenly gap-[0.7rem]">
-          <div className="bg-Softred hover:bg-Verypaleorange w-[2.3rem] h-4"></div>
-          <div className="bg-Softred w-[2.3rem]"></div>
-          <div className="bg-Cyan w-[2.3rem]"></div>
-          <div className="bg-Softred w-[2.3rem]"></div>
-          <div className="bg-Softred w-[2.3rem]"></div>
-          <div className="bg-Softred w-[2.3rem]"></div>
-          <div className="bg-Softred w-[2.3rem]"></div>
+        <div className="flex justify-evenly gap-[0.7rem] items-baseline">
+          <div className="flex flex-col items-center gap-2">
+          <p className="bg-Softred hover:bg-Verypaleorange w-[2.3rem] h-[4rem] rounded-md"></p><p className="text-Mediumbrown">mon</p>
+          </div>
+          <div className="flex flex-col items-center gap-2">
+          <p className="bg-Softred hover:bg-Verypaleorange w-[2.3rem] h-[8rem] rounded-md"></p><p className="text-Mediumbrown">tue</p>
+          </div>
+          <div className="flex flex-col items-center gap-2">
+          <p className="bg-Cyan hover:bg- w-[2.3rem] h-[13rem] rounded-md"></p><p className="text-Mediumbrown">wed</p>
+          </div>
+          <div className="flex flex-col items-center gap-2">
+          <p className="bg-Softred hover:bg-Verypaleorange w-[2.3rem] h-[7rem] rounded-md"></p><p className="text-Mediumbrown">thu</p>
+          </div>
+          <div className="flex flex-col items-center gap-2">
+          <p className="bg-Softred hover:bg-Verypaleorange w-[2.3rem] h-[5.3rem] rounded-md"></p><p className="text-Mediumbrown">fri</p>
+          </div>
+          <div className="flex flex-col items-center gap-2">
+          <p className="bg-Softred hover:bg-Verypaleorange w-[2.3rem] h-[10rem] rounded-md"></p><p className="text-Mediumbrown">sat</p>
+          </div>
+          <div className="flex flex-col items-center gap-2">
+          <p className="bg-Softred hover:bg-Verypaleorange w-[2.3rem] h-[6rem] rounded-md"></p><p className="text-Mediumbrown">sun</p>
+          </div>
         </div>
-        <div className="flex justify-evenly"><p className="text-Mediumbrown">mon</p> <p className="text-Mediumbrown">tue</p> <p className="text-Mediumbrown">thu</p> <p className="text-Mediumbrown">fri</p> <p className="text-Mediumbrown">sat</p> <p className="text-Mediumbrown">sun</p></div>
         <hr className="border-none h-[0.04rem] bg-Cream"/>
         <p className="text-Mediumbrown">Total this month</p>
         <div>
