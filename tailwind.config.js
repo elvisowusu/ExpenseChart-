@@ -15,7 +15,7 @@ export default {
         Verypaleorange:'hsl(33, 100%, 98%)',
       },
       fontFamily:{
-        DMsans: ['DM Sans', 'sans-serif'],
+        DMsans: 'DM Sans, sans-serif',
       },
     },
   },
