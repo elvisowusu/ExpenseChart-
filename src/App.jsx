@@ -3,7 +3,7 @@ import { BsFillCircleFill } from "react-icons/bs";
 
 function App() {
   return (
-    <div className="flex flex-col justify-center items-center h-[100vh] bg-Cream">
+    <div className="flex flex-col justify-center items-center h-[100vh] bg-Cream font-DMsans">
       <div className="flex items-center bg-Softred rounded-lg">
         <div>
           <p className="text-white">My balance</p>
