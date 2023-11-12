@@ -4,7 +4,7 @@ import { BsFillCircleFill } from "react-icons/bs";
 function App() {
   return (
     <div className="flex flex-col justify-center items-center h-[100vh] bg-Cream">
-      <div className="flex items-center bg-Softred">
+      <div className="flex items-center bg-Softred rounded-lg">
         <div>
           <p className="text-">My balance</p>
           <p className="text-white">$921.48</p>
@@ -16,13 +16,13 @@ function App() {
       </div>
       <div className="bg-white">
         <h1 className="text-Darkbrown">Spending - Last 7 days</h1>
-        <div className="flex justify-evenly">
+        <div className="flex justify-evenly i">
           <div className="bg-Softred hover:bg-Verypaleorange">mon</div>
           <div className="bg-Softred">tue</div>
           <div className="bg-Cyan">wed</div>
           <div className="bg-Softred">thu</div>
           <div className="bg-Softred">fri</div>
-          <div className="">sat</div>
+          <div className="bg-Softred">sat</div>
           <div className="bg-Softred">sun</div>
         </div>
         <div className="flex justify-evenly"><p className="text-Mediumbrown">mon</p> <p className="text-Mediumbrown">tue</p> <p className="text-Mediumbrown">thu</p> <p className="text-Mediumbrown">fri</p> <p className="text-Mediumbrown">sat</p> <p className="text-Mediumbrown">sun</p></div>
