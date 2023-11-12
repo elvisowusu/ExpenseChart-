@@ -107,8 +107,17 @@ export const Form = () => {
           </label>
           <input type="number" {...register("name")} />
         </div>
+        <button type="submit">Submit</button>
       </form>
-      <div className="flex flex-col justify-center items-center h-[110vh] md:h-[100vh] bg-Cream font-DMsans relative">
+      <Update mon={state.mon} tue={state.tue} wed={state.wed} thu={state.thu} fri={state.fri} sat={state.sat} sun={state.sun}/>
+    </div>
+  );
+};
+
+
+export const Update =({mon,tue,wed,thu,fri,sat,sun})=>{
+    return(
+        <div className="flex flex-col justify-center items-center h-[110vh] md:h-[100vh] bg-Cream font-DMsans relative">
         <div className="flex justify-between items-center bg-Softred rounded-lg p-6 lg:h-[5.5rem] lg:rounded-xl w-[23rem] lg:w-[30rem]">
           <div>
             <p className="text-Cream text-sm">My balance</p>
@@ -142,7 +151,7 @@ export const Form = () => {
             <div className="flex flex-col items-center gap-2">
               <p className="peer/thu bg-Softred hover:bg-red-300 w-[2.1rem] lg:w-[2.7rem] h-[6.6rem] rounded-sm cursor-pointer"></p>
               <p className="text-Mediumbrown text-sm">thu</p>
-              <p className="peer-hover/thu:visible invisible bg-Darkbrown text-sm text-white p-[0.4rem] lg:p-[0.5rem] rounded-md absolute bottom-[22.9rem]">
+              <p className="peer-hover/thu:visible invisible bg-Darkbrown text-sm text-white p-[0.4rem] lg:p-[0.5rem] rounded-md absolute bottom-[25rem]">
                 $31.07
               </p>
             </div>
@@ -170,6 +179,5 @@ export const Form = () => {
           </div>
         </div>
       </div>
-    </div>
-  );
-};
+    )
+}
