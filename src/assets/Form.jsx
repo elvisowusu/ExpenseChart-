@@ -1,8 +1,8 @@
 
 
 
-export const Form =()=>{
-
+export const Form =({updateContent})=>{
+    
 
     return(
         <form action="">
