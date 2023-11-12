@@ -4,7 +4,16 @@ import * as yup from 'yup'
 
 
 export const Form =({updateContent})=>{
-
+    const schema = yup.object().shape({
+        monday:yup.number().required(),
+        tuesday:yup.number().required(),
+        wednessday:yup.number().required(),
+        thursday:yup.number().required(),
+        friday:yup.number().required(),
+        saturday:yup.number().required(),
+        sunday:yup.number().required(),
+    })
+    
 
     return(
         <form action="">
