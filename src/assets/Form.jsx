@@ -1,13 +1,8 @@
-import { useReducer } from "react"
 
-const reducer =(state,action)=>{
-    
-}
 
 
 export const Form =()=>{
 
-    const [state,dispatch]=useReducer(reducer,{mon:"$0.00",tue:"$0.00",wed:"$0.00",thu:"$0.00",fri:"$0.00",sat:"$0.00",sun:"$0.00",screenwidth:window.innerWidth})
 
     return(
         <form action="">
