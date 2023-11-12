@@ -13,7 +13,10 @@ export default {
         Mediumbrown:'hsl(28, 10%, 53%)',
         Cream:'hsl(27, 66%, 92%)',
         Verypaleorange:'hsl(33, 100%, 98%)',
-      }
+      },
+      fontFamily:{
+        DMsans: ['DM Sans', 'sans-serif'],
+      },
     },
   },
   plugins: [],

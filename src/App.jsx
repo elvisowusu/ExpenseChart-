@@ -6,8 +6,8 @@ function App() {
     <div className="flex flex-col justify-center items-center h-[100vh] bg-Cream">
       <div className="flex items-center bg-Softred rounded-lg">
         <div>
-          <p className="text-">My balance</p>
-          <p className="text-white">$921.48</p>
+          <p className="text-white">My balance</p>
+          <p className="text-white font-bold">$921.48</p>
         </div>
         <div className="relative flex justify-center">
           <BsCircle className="text-white h-[1.8rem] w-[2rem]"/>
