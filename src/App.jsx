@@ -18,25 +18,25 @@ function App() {
         <h1 className="text-Darkbrown font-bold text-[1.5rem]">Spending - Last 7 days</h1>
         <div className="flex justify-evenly gap-[0.7rem] items-baseline mt-[3.9rem]">
           <div className="flex flex-col items-center gap-2">
-          <p className="bg-Softred hover:bg-Verypaleorange w-[2.1rem] h-[3.6rem] rounded-sm"></p><p className="text-Mediumbrown text-sm">mon</p>
+          <p className="bg-Softred hover:bg-red-300 w-[2.1rem] h-[3.6rem] rounded-sm"></p><p className="text-Mediumbrown text-sm">mon</p>
           </div>
           <div className="flex flex-col items-center gap-2">
-          <p className="bg-Softred hover:bg-Verypaleorange w-[2.1rem] h-[7.6rem] rounded-sm"></p><p className="text-Mediumbrown text-sm" >tue</p>
+          <p className="bg-Softred hover:bg-red-300 w-[2.1rem] h-[7.6rem] rounded-sm"></p><p className="text-Mediumbrown text-sm" >tue</p>
           </div>
           <div className="flex flex-col items-center gap-2">
           <p className="bg-Cyan hover:bg- w-[2.1rem] h-[13rem] rounded-sm"></p><p className="text-Mediumbrown text-sm" >wed</p>
           </div>
           <div className="flex flex-col items-center gap-2">
-          <p className="bg-Softred hover:bg-Verypaleorange w-[2.1rem] h-[6.6rem] rounded-sm"></p><p className="text-Mediumbrown text-sm" >thu</p>
+          <p className="bg-Softred hover:bg-red-300 w-[2.1rem] h-[6.6rem] rounded-sm"></p><p className="text-Mediumbrown text-sm" >thu</p>
           </div>
           <div className="flex flex-col items-center gap-2">
-          <p className="bg-Softred hover:bg-Verypaleorange w-[2.1rem] h-[4.9rem] rounded-sm"></p><p className="text-Mediumbrown text-sm" >fri</p>
+          <p className="bg-Softred hover:bg-red-300 w-[2.1rem] h-[4.9rem] rounded-sm"></p><p className="text-Mediumbrown text-sm" >fri</p>
           </div>
           <div className="flex flex-col items-center gap-2">
-          <p className="bg-Softred hover:bg-Verypaleorange w-[2.1rem] h-[9.6rem] rounded-sm"></p><p className="text-Mediumbrown text-sm" >sat</p>
+          <p className="bg-Softred hover:bg-red-300 w-[2.1rem] h-[9.6rem] rounded-sm"></p><p className="text-Mediumbrown text-sm" >sat</p>
           </div>
           <div className="flex flex-col items-center gap-2">
-          <p className="bg-Softred hover:bg-Verypaleorange w-[2.1rem] h-[5.6rem] rounded-sm"></p><p className="text-Mediumbrown text-sm" >sun</p>
+          <p className="bg-Softred hover:bg-red-300 w-[2.1rem] h-[5.6rem] rounded-sm"></p><p className="text-Mediumbrown text-sm" >sun</p>
           </div>
         </div>
         <hr className="border-none h-[0.1rem] bg-Cream my-[1.6rem]"/>
