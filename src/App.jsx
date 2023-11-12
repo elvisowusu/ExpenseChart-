@@ -1,18 +1,21 @@
 import React from "react";
 import { Project } from "./assets/Project";
-import { Form } from "./assets/Form"; 
+import { Form } from "./assets/Form";
 import { Upgrade } from "./assets/Upgrade";
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-      <div className="relative">
-        <button className="absolute top-0 right-0 hover:text-Softred">try out my updated version</button>
-        <Project/>
-        <Form/>
-        <Upgrade/>
-      </div>
-      );
+    <div className="relative">
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Project />} />
+          <Route path="/Form" element={<Form />} />
+          <Route path="/Upgrade" element={<Upgrade />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
+  );
 }
 
 export default App;
