@@ -1,13 +1,16 @@
 import React from "react"
 import { BsCircle } from "react-icons/bs";
 import { BsFillCircleFill } from "react-icons/bs";
+import {useNavigate} from 'react-router-dom'
 
 
 export const Project =()=>{
+    const navigate = useNavigate();
     
 
     return(
         <div className="flex flex-col justify-center items-center h-[110vh] md:h-[100vh] bg-Cream font-DMsans relative">
+            <button onClick={()=>{navigate("/Form")}} className="absolute top-4 right-4 hover:text-Softred">try out my updated version</button>
       <div className="flex justify-between items-center bg-Softred rounded-lg p-6 lg:h-[5.5rem] lg:rounded-xl w-[23rem] lg:w-[30rem]">
         <div>
           <p className="text-Cream text-sm">My balance</p>
