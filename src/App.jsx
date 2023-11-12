@@ -3,18 +3,18 @@ import { BsFillCircleFill } from "react-icons/bs";
 
 function App() {
   return (
-    <div className="flex flex-col justify-center items-center h-[100vh] bg-Cream font-DMsans">
-      <div className="flex items-center bg-Softred rounded-lg">
+    <div className="flex flex-col md:justify-center items-center md:h-[100vh] bg-Cream font-DMsans">
+      <div className="flex justify-between items-center bg-Softred rounded-lg p-5 w-[22rem]">
         <div>
-          <p className="text-white">My balance</p>
-          <p className="text-white font-bold">$921.48</p>
+          <p className="text-Cream">My balance</p>
+          <p className="text-white font-bold text-[1.5rem]">$921.48</p>
         </div>
         <div className="relative flex justify-center">
-          <BsCircle className="text-white h-[1.8rem] w-[2rem]"/>
-          <BsFillCircleFill className="h-[1.8rem] w-[2rem]"/>
+          <BsCircle className="text-white h-[2.7rem] w-[2.7rem] absolute right-6"/>
+          <BsFillCircleFill className="h-[2.7rem] w-[2.7rem]"/>
         </div>
       </div>
-      <div className="bg-white">
+      <div className="rounded-lg bg-white p-5 w-[22rem]">
         <h1 className="text-Darkbrown">Spending - Last 7 days</h1>
         <div className="flex justify-evenly i">
           <div className="bg-Softred hover:bg-Verypaleorange">mon</div>
