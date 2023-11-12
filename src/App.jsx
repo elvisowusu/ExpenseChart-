@@ -25,7 +25,7 @@ function App() {
           <div className="">sat</div>
           <div className="bg-Softred">sun</div>
         </div>
-        <div className="flex justify-evenly"><p>mon</p> <p>tue</p> <p>thu</p> <p>fri</p> <p>sat</p> <p>sun</p></div>
+        <div className="flex justify-evenly"><p className="text-Mediumbrown">mon</p> <p className="text-Mediumbrown">tue</p> <p className="text-Mediumbrown">thu</p> <p className="text-Mediumbrown">fri</p> <p className="text-Mediumbrown">sat</p> <p className="text-Mediumbrown">sun</p></div>
         <hr className="border-none h-[0.04rem] bg-Cream"/>
         <p className="text-Mediumbrown">Total this month</p>
         <div>
