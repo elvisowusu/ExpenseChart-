@@ -13,6 +13,9 @@ export const Form =({updateContent})=>{
         saturday:yup.number().required(),
         sunday:yup.number().required(),
     })
+    const {register,handleSubmit,reset,formState:{errors}}=useForm({
+        resolver:yupResolver(schema)
+    });
     
 
     return(
