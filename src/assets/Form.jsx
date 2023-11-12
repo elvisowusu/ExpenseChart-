@@ -23,6 +23,7 @@ export const Form = () => {
     fri: "$0.00",
     sat: "$0.00",
     sun: "$0.00",
+    total: "$0.00",
   });
   const update = (day, value) => {
     dispatch({ type: "update", day, value });
@@ -53,6 +54,7 @@ export const Form = () => {
     update("fri", data.friday);
     update("sat", data.saturday);
     update("sun", data.sunday);
+    update("total", data.monday + data.tuesday + data.wednessday + data.thursday + data.friday + data.saturday + data.sunday);
     reset();
   };
 
@@ -134,7 +136,7 @@ export const Update =({mon,tue,wed,thu,fri,sat,sun})=>{
           </h1>
           <div className="flex justify-evenly gap-[0.9rem] items-baseline mt-[3.9rem] lg:mt-[3.5rem]">
             <div className="flex flex-col items-center gap-2">
-              <p className="bg-Softred hover:bg-red-300 w-[2.1rem] lg:w-[2.7rem] h-[3.6rem] rounded-sm cursor-pointer"></p>
+              <height value={mon}/>
               <p className="text-Mediumbrown text-sm">mon</p>
             </div>
             <div className="flex flex-col items-center gap-2">
@@ -180,4 +182,9 @@ export const Update =({mon,tue,wed,thu,fri,sat,sun})=>{
         </div>
       </div>
     )
+}
+
+const height =(prop)=>{
+    const ans =prop.value*100/total;
+    return<p className={`bg-Softred hover:bg-red-300 w-[2.1rem] lg:w-[2.7rem] h-[${ans}] rounded-sm cursor-pointer`}></p>
 }
