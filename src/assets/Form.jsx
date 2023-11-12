@@ -16,36 +16,46 @@ export const Form =({updateContent})=>{
     const {register,handleSubmit,reset,formState:{errors}}=useForm({
         resolver:yupResolver(schema)
     });
-    
+    const onSubmit=(data)=>{
+        updateContent("mon",data.monday);
+        updateContent("tue",data.tuesday);
+        updateContent("wed",data.wednessday);
+        updateContent("thu",data.thursday);
+        updateContent("fri",data.friday);
+        updateContent("sat",data.saturday);
+        updateContent("sun",data.sunday);
+        reset();
+        Navigate('/Upgrade');
+    }
 
     return(
-        <form action="">
+        <form onSubmit={handleSubmit(onSubmit)}>
             <div>
-                <label htmlFor="">Monday</label>
+                <label className="tracking-[0.2rem] font-bold text-[1.05rem] md:text-[0.7rem] text-Verydarkviolet">Monday</label>
                 <input type="number"/>
             </div>
             <div>
-                <label htmlFor="">Tuesday</label>
+                <label className="tracking-[0.2rem] font-bold text-[1.05rem] md:text-[0.7rem] text-Verydarkviolet">Tuesday</label>
                 <input type="number"/>
             </div>
             <div>
-                <label htmlFor="">Wednessday</label>
+                <label className="tracking-[0.2rem] font-bold text-[1.05rem] md:text-[0.7rem] text-Verydarkviolet">Wednessday</label>
                 <input type="number"/>
             </div>
             <div>
-                <label htmlFor="">Thursday</label>
+                <label className="tracking-[0.2rem] font-bold text-[1.05rem] md:text-[0.7rem] text-Verydarkviolet">Thursday</label>
                 <input type="number"/>
             </div>
             <div>
-                <label htmlFor="">Friday</label>
+                <label className="tracking-[0.2rem] font-bold text-[1.05rem] md:text-[0.7rem] text-Verydarkviolet">Friday</label>
                 <input type="number"/>
             </div>
             <div>
-                <label htmlFor="">Saturday</label>
+                <label className="tracking-[0.2rem] font-bold text-[1.05rem] md:text-[0.7rem] text-Verydarkviolet">Saturday</label>
                 <input type="number"/>
             </div>
             <div>
-                <label htmlFor="">Sunday</label>
+                <label className="tracking-[0.2rem] font-bold text-[1.05rem] md:text-[0.7rem] text-Verydarkviolet">Sunday</label>
                 <input type="number"/>
             </div>
         </form>
