@@ -4,7 +4,7 @@ import { BsFillCircleFill } from "react-icons/bs";
 function App() {
   return (
     <div className="flex flex-col justify-center items-center h-[110vh] md:h-[100vh] bg-Cream font-DMsans">
-      <div className="flex justify-between items-center bg-Softred rounded-lg p-6 w-[22rem]">
+      <div className="flex justify-between items-center bg-Softred rounded-lg p-6 w-[23rem]">
         <div>
           <p className="text-Cream">My balance</p>
           <p className="text-white font-bold text-[1.5rem]">$921.48</p>
@@ -14,21 +14,21 @@ function App() {
           <BsFillCircleFill className="h-[2.7rem] w-[2.7rem]"/>
         </div>
       </div>
-      <div className="rounded-lg bg-white p-6 w-[22rem] mt-4 py-6">
+      <div className="rounded-lg bg-white p-6 w-[23rem] mt-4 py-6">
         <h1 className="text-Darkbrown font-bold text-[1.5rem]">Spending - Last 7 days</h1>
-        <div className="flex justify-evenly gap-[0.7rem] items-baseline mt-[3.9rem]">
+        <div className="flex justify-evenly gap-[0.9rem] items-baseline mt-[3.9rem]">
           <div className="flex flex-col items-center gap-2">
             <p className="bg-Softred hover:bg-Verypaleorange w-[2.1rem] h-[3.6rem] rounded-sm cursor-pointer"></p><p className="text-Mediumbrown text-sm">mon</p>
           </div>
           <div className="flex flex-col items-center gap-2">
             <p className="bg-Softred hover:bg-Verypaleorange w-[2.1rem] h-[7.6rem] rounded-sm cursor-pointer"></p><p className="text-Mediumbrown text-sm" >tue</p>
           </div>
-          <div className="flex flex-col items-center gap-2">
-            <p className="bg-Darkbrown text-sm text-white p-[0.4rem] rounded-md">$52.36</p>
+          <div className="flex flex-col items-center gap-2 relative">
+            <p className="bg-Darkbrown text-sm text-white p-[0.4rem] rounded-md absolute bottom-[15.3rem]">$52.36</p>
             <p className="bg-Cyan hover:bg- w-[2.1rem] h-[13rem] rounded-sm cursor-pointer"></p><p className="text-Mediumbrown text-sm" >wed</p>
           </div>
           <div className="flex flex-col items-center gap-2">
-          <p className="bg-Darkbrown text-sm text-white p-[0.4rem] rounded-md">$31.07</p>
+          <p className="bg-Darkbrown text-sm text-white p-[0.4rem] rounded-md absolute bottom-[22.7rem]">$31.07</p>
             <p className="bg-Softred hover:bg-Verypaleorange w-[2.1rem] h-[6.6rem] rounded-sm cursor-pointer"></p><p className="text-Mediumbrown text-sm" >thu</p>
           </div>
           <div className="flex flex-col items-center gap-2">
