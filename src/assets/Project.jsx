@@ -35,7 +35,7 @@ export const Project =()=>{
           </div>
           <div className="flex flex-col items-center gap-2">
             <p className="peer/thu bg-Softred hover:bg-red-300 w-[2.1rem] lg:w-[2.7rem] h-[6.6rem] rounded-sm cursor-pointer"></p><p className="text-Mediumbrown text-sm" >thu</p>
-            <p className="peer-hover/thu:visible invisible bg-Darkbrown text-sm text-white p-[0.4rem] lg:p-[0.5rem] rounded-md absolute bottom-[25.2rem]">$31.07</p>
+            <p className="peer-hover/thu:visible invisible bg-Darkbrown text-sm text-white p-[0.4rem] lg:p-[0.5rem] rounded-md absolute bottom-[28.7rem]">$31.07</p>
           </div>
           <div className="flex flex-col items-center gap-2">
             <p className="bg-Softred hover:bg-red-300 w-[2.1rem] lg:w-[2.7rem] h-[4.9rem] rounded-sm cursor-pointer"></p><p className="text-Mediumbrown text-sm" >fri</p>
